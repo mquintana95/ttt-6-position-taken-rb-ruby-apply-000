@@ -1,6 +1,7 @@
 # code your #position_taken? method here!
+require "pry"
 def position_taken?(board,index)
-  '#position_taken?(" ")' == false
+  binding.pry
   
 end  
 
