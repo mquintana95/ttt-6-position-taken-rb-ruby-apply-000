@@ -2,9 +2,9 @@
 require "pry"
 def position_taken?(board,index)
   if board[index] == 'X' || board[index] == 'O'
-    puts true
+    return true
   else 
-    puts false
+    return false
   end 
 end  
 
